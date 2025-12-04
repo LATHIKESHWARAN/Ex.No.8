@@ -1,8 +1,8 @@
 # Experiment 8: Reproducing an Image Using Prompts for Image Generation
-```
-Name : LATHIKESHWARAN J
-Reg No : 212222230072
-```
+
+## Name : LATHIKESHWARAN J
+## Reg No : 212222230072
+
 ## Aim
 To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts.  
 The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
@@ -33,110 +33,59 @@ The goal is to identify key elements within the image and use these details to g
    - Compared the generated output with the original and refined the prompt if needed.
 
 ---
-##  Image 1
-###  Original Image
+## Image 1
+### Original Image:
+![images (1)](https://github.com/user-attachments/assets/b2874c0f-262a-4186-997f-d2b9ee0fc72d)
 
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/dc80833d-9f2c-4ae1-aeb9-6416e3fbe312" />
-
-### Prompt Development
-#### **Basic Prompt**
+### Prompt
 ```
-A waterfall at sunset.
-```
-#### **Refined Prompt**
-```
-Majestic waterfall at sunrise, glowing with golden light. Shot from a cliff, showing a vibrant sunburst in the sky. Dark cliffs and misty water below.
+"A single sheep standing in tall golden grass, with soft background hills slightly blurred, warm natural daylight, close-up countryside photography, detailed wool texture and shallow depth of field."
 ```
 
-#### **Final Prompt Used**
-```
-Dramatic, hyperrealistic photograph of a wide waterfall at golden hour. Sunburst and light rays over dark, rugged cliffs.
-```
-
-###  Generated Image
-#### **Basic Prompt**
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/255665f9-89d2-4d0c-88be-5130e2a67a24" />
-
-#### **Refined Prompt**
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/d05c7ba2-a522-4008-b800-7f7e59dd11ca" />
-
-#### **Final Prompt Used**
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/73b3f909-f0b2-46e1-92e8-4f857593baac" />
+### Generated Image: 
+<img width="2528" height="1696" alt="Gemini_Generated_Image_fhxzn9fhxzn9fhxz" src="https://github.com/user-attachments/assets/7cb09202-b8e6-4df6-b09a-e92d89183cc0" />
 
 
-
-### 🔍 Comparison Report
-
-| Aspect      | Original                                  | Generated                                   | Observation                              |
-| ----------- | ----------------------------------------- | ------------------------------------------- | ---------------------------------------- |
-| Objects     | Waterfall, cliffs, sun, clouds, mountains | Same                                        | All elements present.                    |
-| Colors      | Golden-orange sunset, dark blues/greys    | Golden-orange sunset, brighter blues/greens | Close match; less moody.                 |
-| Lighting    | Golden hour, dramatic rays                | Golden hour, softer rays                    | Good match; fewer atmospheric details.   |
-| Composition | Cliff view, waterfall left                | Cliff view, waterfall centered              | General match; less precise.             |
-| Style       | Hyperrealistic, epic                      | Realistic, less epic                        | Style close but toned down.              |
-| Key Element | Misty spray, rugged cliffs                | Misty spray, softer cliffs                  | Key features present but softer texture. |
-
-
-
-### ✅ Result
+## Result
 The generated image closely matches the original, with only minor variations in color and lighting.  
 The composition, tone, and realism were successfully maintained through careful prompt refinement.
+
+## Comparison Report:
+
+| Aspect          | Original Image                                         | Generated Image                                      | Observation                       |
+| --------------- | ------------------------------------------------------ | ---------------------------------------------------- | --------------------------------- |
+| **Objects**     | Single sheep standing in tall grass                    | Same                                                 | Main subject perfectly matched.   |
+| **Colors**      | Warm tones, golden grass, soft hill colors             | Warm tones maintained, similar grass and hill colors | Very good color similarity.       |
+| **Lighting**    | Natural warm daylight                                  | Same warm lighting                                   | Lighting reproduced accurately.   |
+| **Composition** | Close-up side view, sheep centered, blurred background | Close-up view, sheep centered, blurred hills         | Composition well reproduced.      |
+| **Style**       | Natural countryside photography                        | Realistic countryside look                           | Matching style and texture.       |
+| **Foreground**  | Tall golden grass, shallow depth of field              | Same                                                 | Foreground accuracy is excellent. |
+| **Background**  | Soft blurred hills with smooth color transitions       | Similar blurred hills, slight variations             | Slight changes but well captured. |
+
 
 
 
 ##  Image 2 : 
 ### Original Image
-![tiger](https://github.com/user-attachments/assets/485d77dd-93b4-4f00-ab97-73a53393e54e)
+![images](https://github.com/user-attachments/assets/178387c7-c757-4968-9647-10c24a4b66bc)
 
-###  Prompt Development
-#### **Basic Prompt**
-A tiger walking in a river.
+### Prompt
+```
+"A group of elephants walking through a shallow river surrounded by dense green forest, morning sunlight filtering through the trees, reflections and ripples on the water, natural wildlife photography style, wide landscape view."
+```
 
-#### **Refined Prompt**
+### Generated Image
+<img width="2752" height="1536" alt="Gemini_Generated_Image_usedt0usedt0used" src="https://github.com/user-attachments/assets/76bfd779-e5d7-4230-b5de-32943965f5f3" />
 
-Amur tiger wading in shallow stream, low angle wildlife photography, dense green forest background, cinematic rim lighting, ultra shallow depth of field, hyperdetailed 8K.
+## Result
+The generated image closely matches the original, with only minor variations in color and lighting.  
+The composition, tone, and realism were successfully maintained through careful prompt refinement.
 
-#### **Final Prompt Used**
-
-A focused Siberian tiger wading toward camera in a shallow forest stream. dramatic photograph. Dense, dark green setting with water splashes and a moody reflective foreground.
-
-
-### Generated Image 
-### **Basic Prompt**
-
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/c271d782-7b7a-486a-a1ed-2dfe9ebb1c12" />
-
-### **Refined Prompt**
-
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/20b25ee7-e0c0-4cdf-ba95-5536169bd012" />
-
-### **Final Prompt Used**
-
-
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/de31d0cc-2b06-4078-b1d3-0fad7519548d" />
-
-## 🔍 Comparison Report
-
-| Aspect          | Original                          | Generated                     | Observation                |
-| --------------- | --------------------------------- | ----------------------------- | -------------------------- |
-| **Objects**     | Amur tiger, stream, forest        | Same                          | All elements present.      |
-| **Colors**      | Rich orange, dark greens          | Rich orange, cool greens      | Close match.               |
-| **Lighting**    | Low-key, dramatic, rim light      | Low-key, cinematic, rim light | Excellent match.           |
-| **Composition** | Extreme low-angle, centered tiger | Low-angle, centered tiger     | Perspective well captured. |
-| **Style**       | Hyperrealistic, 8K                | Same                          | Well reproduced.           |
-| **Foreground**  | Shallow DoF, reflective water     | Same                          | Excellent fidelity.        |
 
 
 ##  Conclusion
 
-By carefully crafting detailed prompts, the generated image closely resembled the original snowy mountain landscape.  
-Minor variations in lighting and tone were observed, but the main composition and color balance were successfully replicated.  
-This experiment highlights the importance of **prompt precision** in achieving realistic and accurate AI-generated images.  
+The text-to-image generation process for both the elephant and sheep images shows that the model can accurately reproduce real-world scenes when provided with clear and detailed prompts. In both cases, the main subjects, environments, lighting conditions, and overall style were closely matched, demonstrating strong alignment with the original images. Although minor variations appeared in background elements, posture, and color tones, these differences are natural due to the creative interpretation of the AI model. Overall, the experiment proves that well-crafted prompts can successfully guide the model to generate images that closely resemble the reference photographs, achieving high visual similarity and preserving the mood, composition, and realism of the original scenes.
 
 ---
 
